@@ -21,5 +21,23 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
+        "react/jsx-filename-extension": [
+            2,
+            {
+              "extensions": [
+                ".ts",
+                ".tsx"
+              ]
+            }
+          ],
+          "react/forbid-prop-types": [
+            0
+          ],
+          "react/require-default-props": [
+            0
+          ],
+          "global-require": [
+            0
+          ]
     }
 };
